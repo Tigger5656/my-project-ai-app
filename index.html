@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍎🍌 Fruit Scanner</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.11.0"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🍎🍌 Fruit Scanner</h1>
+    <p>อัปโหลดรูป แล้วให้ AI ทำนายว่าเป็น Apple หรือ Banana</p>
+
+    <div class="upload-box">
+      <input type="file" id="imageInput" multiple accept="image/*">
+      <button id="scanBtn">Scan Images</button>
+    </div>
+
+    <div id="results" class="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
